@@ -1,5 +1,5 @@
 pkgname=materia-kde
-pkgver=20190319.r0.g4996669
+pkgver=20190506.r0.g84823e2
 pkgrel=1
 pkgdesc="Materia theme for KDE Plasma 5"
 arch=('any')
