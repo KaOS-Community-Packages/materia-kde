@@ -1,5 +1,5 @@
 pkgname=materia-kde
-pkgver=20210410
+pkgver=20210612
 pkgrel=1
 pkgdesc="Materia theme for KDE Plasma 5"
 arch=('any')
@@ -14,7 +14,7 @@ conflicts=("${pkgname%-*}")
 provides=("${pkgname%-*}")
 options=(!strip)
 source=("https://github.com/PapirusDevelopmentTeam/${pkgname}/archive/${pkgver}.tar.gz")
-md5sums=('42650fcfc0bc032d23adb641009f97bc')
+md5sums=('3040fac70ed9831d9b677711d4f9b043')
 
 package() {
     cd ${srcdir}/$pkgname-$pkgver
